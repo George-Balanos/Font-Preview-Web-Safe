@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Font-Preview(Web Safe)</h1>
+    <br>
+    <div id="content">
+        <label for="userInputArea">Write something in this box: </label>
+        <br>
+        <br>
+        <textarea name="inputArea" id="userInputArea" cols="30" rows="10"></textarea><br><br>
+        <textarea name="outputArea" id="userOutputArea" cols="30" rows="10"></textarea>
+        <br>
+
+        <div id="selection">
+            <label for="fontSelection">Select a font:</label>
+            <select name="fontSelection" id="fontSelection">
+                <option value="Arial">Arial (sans-serif)</option>
+                <option value="Verdana">Verdana (sans-serif)</option>
+                <option value="Tahoma">Tahoma (sans-serif)</option>
+                <option value="Trebuchet_MS">Trebuchet MS (sans-serif)</option>
+                <option value="Times_New_Roman">Times New Roman (serif)</option>
+                <option value="Georgia">Georgia (serif)</option>
+                <option value="Garamond">Garamond (serif)</option>
+                <option value="Courier_New">Courier New (monospace)</option>
+                <option value="Brush_Script_MT">Brush Script MT (cursive)</option>
+            </select><br>
+            <label for="fontWeightSelection">Select font-weight:</label>
+            <select name="fontWeightSelection" id="fontWeightSelection">
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+            </select><br>
+            <label for="fontSize">Select font-size:</label>
+            <input type="range" name="fontSize" id="fontSize">
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
